@@ -1,0 +1,55 @@
+﻿<Window x:Class="MeineDatenbankÜbung.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MeineDatenbankÜbung"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Label Content="Datensatz" HorizontalAlignment="Left" Margin="50,20,0,0" VerticalAlignment="Top" Width="216"/>
+        <ListBox x:Name="ausgabe_lb" HorizontalAlignment="Left" Height="142" Margin="50,51,0,0" VerticalAlignment="Top" Width="290" SelectionChanged="ausgabe_lb_SelectionChanged">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <StackPanel Orientation="Horizontal">
+                        <TextBlock Text="Geschlecht: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Geschlecht}"></TextBlock>
+                        <TextBlock Text=", Vorname: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Vorname}"></TextBlock>
+                        <TextBlock Text=", Nachname: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Nachname}"></TextBlock>
+                        <TextBlock Text=", Telefonnummer: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Telefonnummer}"></TextBlock>
+                        <TextBlock Text=", Email: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Email}"></TextBlock>
+                        <TextBlock Text=", Plz: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Plz}"></TextBlock>
+                        <TextBlock Text=", Straße: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Strasse}"></TextBlock>
+                        <TextBlock Text=", Hausnummer: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Hausnummer}"></TextBlock>
+                        <TextBlock Text=", Matrikelnummer: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Matrikelnummer}"></TextBlock>
+                        <TextBlock Text=", Anrede: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Anrede}"></TextBlock>
+                        <TextBlock Text=", Studiengang: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Studiengang}"></TextBlock>
+                        <TextBlock Text=", Fachsemester: "></TextBlock>
+                        <TextBlock Text="{Binding Path= Fachsemester}"></TextBlock>
+                    </StackPanel>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Label Content="Personinformationen" HorizontalAlignment="Left" Margin="50,198,0,0" VerticalAlignment="Top" Width="216"/>
+        <TextBlock x:Name="personInfo_tb" HorizontalAlignment="Left" Margin="50,224,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="290" Height="62"/>
+        <Button x:Name="neuesFenster_bt" Content="neue Person" HorizontalAlignment="Left" Margin="50,302,0,0" VerticalAlignment="Top" Width="125" Click="neuesFenster_bt_Click"/>
+        <Button Content="alphabetisch sortieren" HorizontalAlignment="Left" Margin="50,327,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_1"/>
+        <Button Content="nach Erstellungsdatum sortieren" HorizontalAlignment="Left" Margin="50,352,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click_2"/>
+        <Button x:Name="export_bt" Content="Datei exportieren" HorizontalAlignment="Left" Margin="215,302,0,0" VerticalAlignment="Top" Width="125" Click="export_bt_Click"/>
+        <Button Content="Datensatz löschen" HorizontalAlignment="Left" Margin="215,327,0,0" VerticalAlignment="Top" Width="125" Click="Button_Click"/>
+        <Label Content="Suchen" HorizontalAlignment="Left" Margin="637,20,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="637,51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="edit_bt" Content="Edit" HorizontalAlignment="Left" Margin="215,352,0,0" VerticalAlignment="Top" Width="125" Click="edit_bt_Click"/>
+
+    </Grid>
+</Window>

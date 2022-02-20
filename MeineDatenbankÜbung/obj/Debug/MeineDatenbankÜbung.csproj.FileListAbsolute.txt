@@ -1,0 +1,17 @@
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\bin\Debug\MeineDatenbankÜbung.exe.config
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\bin\Debug\MeineDatenbankÜbung.exe
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\bin\Debug\MeineDatenbankÜbung.pdb
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MainWindow.g.cs
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\SecondWindow.g.cs
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\App.g.cs
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung_MarkupCompile.cache
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung_MarkupCompile.lref
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MainWindow.baml
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\SecondWindow.baml
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.g.resources
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.Properties.Resources.resources
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.csproj.GenerateResource.cache
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.exe
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.pdb
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.csproj.AssemblyReference.cache
+C:\Users\ThinkPad\source\repos\MeineDatenbankÜbung\obj\Debug\MeineDatenbankÜbung.csproj.CoreCompileInputs.cache
